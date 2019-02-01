@@ -2,7 +2,7 @@ BootStrap: docker
 From: trinityrnaseq/trinityrnaseq
 
 %runscript
-    
+    exec /usr/local/bin/trinityrnaseq/Trinity "$@"
 
 %post
     #ACI mappings
