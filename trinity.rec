@@ -1,4 +1,4 @@
-BootStrap: Docker
+BootStrap: docker
 From: trinityrnaseq/trinityrnaseq
 
 %runscript
